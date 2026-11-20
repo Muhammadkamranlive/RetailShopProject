@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
+  --color-paper: #e6ebe8;
+  --color-card: #ffffff;
+  --color-ink: #101614;
+  --color-muted: #52605a;
+  --color-line: #d3ddd8;
+  --color-pine: #0f3d34;
+  --color-pine-dark: #0a2a24;
+  --color-copper: #9a3412;
+  --color-brass: #b08948;
+  --color-sidebar: #0b1210;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: #d5e6e1;
+}
